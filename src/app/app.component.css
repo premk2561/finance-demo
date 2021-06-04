@@ -1,0 +1,136 @@
+nav{
+    background-color: transparent;
+}
+.nav-link
+{
+    color: black;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.nav-link:hover
+{
+    color: purple;                /*navbar effects*/
+}
+#btn1
+{
+    border: 2px solid #663399;
+    color: #663399;
+}
+#btn1:hover,#btn3:hover
+{
+    color: white;
+    background-color: #663399;
+}
+#btn2
+{
+    color: white;
+    background-image: linear-gradient(to right, #9F62C9,#663399);
+}
+#btn2:hover
+{
+    background: #663399;
+}
+#btn3
+{
+    background-color: white;      /*button effects*/
+}
+#line
+{
+    width: 19%;            /*horizantal line*/ 
+}
+#img1
+{
+    width: 70%;
+}
+
+#circle
+{
+    width: 30%;
+    transform: translate(-100px,0px);              /*large circle image*/
+}
+.card
+{
+     border-radius: 2%;                           /*card styles*/
+}
+.cards:hover
+{
+    background-color: #9F62C9;
+    color: white;
+    
+}
+.sub,label,input
+{
+    font-size: small;
+    margin-top: 1rem;                        /*para text size*/
+}
+
+.info
+{
+    color: gray;
+}
+
+#cont2
+{
+    background-image: url('/assets/sol_wave_bg.svg');
+    background-size:auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;                           /*container two background image*/
+
+}
+#cont1
+{
+    background-image: url('/assets/circle.svg');
+    background-size: contain;
+    background-size: 65%;
+    background-repeat: no-repeat;                         /*container one background image*/
+    background-position-x: 550px;
+    background-position-y: -120px;
+    margin-bottom: 1%;
+}
+
+#card3
+{
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+   background-color: #9F62C9;
+   width: 30%;
+   height: 60%;                                     /*top right info card*/
+  
+   
+}
+#inputs-card
+{                                              /*inputs card*/
+    width: 60%;
+}
+#col2
+{
+    margin-top: 100px;
+}
+#col1
+{
+    padding-left: 50px;
+    margin-top: 50px;
+    background-image: url('/assets/blob-small.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;                                       /*top left circle img style*/
+    background-position-x: -90px;
+    
+}
+#dots1
+{
+    transform: translate(17rem,-20px);          /*dots images*/
+    width: 50%;
+}
+#dots2
+{
+    width: 25%;
+   transform: translate(50rem);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #663399;                          /*input range button color*/
+  }
+
+  
